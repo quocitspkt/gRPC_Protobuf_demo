@@ -12,6 +12,7 @@ Tổng quan về gRPC và Protobuf (Protocol buffers)
   - Dữ liệu Protocol buffer được cấu trúc dưới dạng messages. Trong đó, mỗi message là một bản ghi logic nhỏ chứa thông tin các cặp name-value gọi là các trường.
   - HTTP/2 hoạt động rất tốt với binary thay vì test nên google phát minh ra kiểu dữ liệu binary với tên gọi: Protobuf (tên đầy đủ là Protocol Buffers). 
   - Tốc độ encode và decode của Protobuf là nhanh nhất.
+  
 Vì sao cần dùng gRPC
   - Để tăng tải và thông lượng giữa các services
   - Khi chúng thực hiện dự án có nhiều services và tải đang rất cao.
