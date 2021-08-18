@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package greet;
+
+// The calculate service definition.
+service Greeter {
+  rpc Sum (SumRequest) returns (SumReply);
+  rpc Sub (SubRequest) returns (SubReply);
+  rpc Mul (MulRequest) returns (MulReply);
+  rpc Div (DivRequest) returns (DivReply);
+}
+
+// The request message containing the user's number.
+message SumRequest {
+  int32 number1 = 1;
+  int32 number2 = 2;
+}
+
+// The response message containing the total.
+message SumReply {
+  int32 result = 1;
+}
+
+message SubRequest{
+	int32 number1 = 1;
+	int32 number2 = 2;
+}
+
+message SubReply {
+  float result = 1;
+}
+
+message MulRequest{
+	int32 number1 = 1;
+	int32 number2 = 2;
+}
+
+message MulReply{
+	int32 result = 1;
+}
+
+message DivRequest{
+	int32 number1 = 1;
+	int32 number2 = 2;
+}
+
+message DivReply{
+	float result = 1;
+}
