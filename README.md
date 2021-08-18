@@ -1,6 +1,8 @@
 # gRPC_Protobuf_demo
 Chương trình máy tính đơn giản ứng dụng gRPC
+
 Video chương trình demo: https://youtu.be/mGkgrsGuKQE
+
 Tổng quan về gRPC và Protobuf (Protocol buffers)
   - gRPC là một framework RPC mã nguồn mở, hiện đại và hiệu năng cao, có thể chạy trên bất kì môi trường nào.
   - Framework này được google phát triển năm 2015. Được cho là thế hệ tiếp theo của RPC (Remote Procedure Calls) đặc biệt là trong mô hình Microservices
